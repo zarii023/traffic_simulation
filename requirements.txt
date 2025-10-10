@@ -1,0 +1,23 @@
+# --- Núcleo gráfico ---
+#pip install --upgrade pip
+#PyOpenGL==3.1.7
+#pygame>=2.5.0
+#numpy>=2.1,<2.3          # soporte para Python 3.13 (2.1+). :contentReference[oaicite:3]{index=3}
+#PyGLM>=2.7.3             # 3.13 soportado desde 2.7.3. :contentReference[oaicite:4]{index=4}
+
+# --- Geoposicionamiento / coordenadas ---
+#pyproj>=3.7,<3.8         # 3.7.x añade ruedas para 3.13. :contentReference[oaicite:5]{index=5}
+
+# --- Parser OSM (opcional) ---
+#osmium>=4.1.0,<5         # 4.1.x con ruedas recientes. :contentReference[oaicite:6]{index=6}
+
+# --- Utilidades / XML ---
+#lxml>=5.3,<5.4           # 5.3.x tiene ruedas para 3.13. :contentReference[oaicite:7]{index=7}
+
+# --- (opcional) Desarrollo ---
+#matplotlib==3.9.2
+
+pygame>=2.5
+PyOpenGL>=3.1
+numpy>=1.24
+pyproj>=3.6
